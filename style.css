@@ -1,0 +1,128 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fef9f6;
+    color: #4a4a4a;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #a8d5ba;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(168, 213, 186, 0.5);
+}
+
+header h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 2.8rem;
+    font-family: 'Cursive', Arial, sans-serif;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 5px;
+    font-style: italic;
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #2f6d4d;
+}
+
+.hero {
+    background-color: #d3e9d4;
+    text-align: center;
+    padding: 60px 20px;
+    font-size: 1.3rem;
+    color: #2f6d4d;
+}
+
+.section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.section h2 {
+    color: #2f6d4d;
+    border-bottom: 2px solid #a8d5ba;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.collections {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(47, 109, 77, 0.15);
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    font-size: 1rem;
+    color: #4a4a4a;
+}
+
+.card h3 {
+    color: #3a7a50;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-family: 'Cursive', Arial, sans-serif;
+    font-size: 1.4rem;
+}
+
+footer {
+    background-color: #a8d5ba;
+    color: #fff;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 40px;
+    font-size: 1rem;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+.collections {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    /* alinhamento horizontal */
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(47, 109, 77, 0.15);
+    padding: 20px;
+    width: 220px; /* largura fixa menor para caber melhor */
+    min-width: 220px; /* impede que fique muito pequeno */
+    text-align: center;
+    font-size: 1rem;
+    color: #4a4a4a;
+    box-sizing: border-box; /* para o padding não aumentar largura */
+}
